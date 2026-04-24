@@ -1,0 +1,28 @@
+# --- Core ML & Infrastructure ---
+torch>=2.2.0,<2.3
+torchvision>=0.17.0,<0.18
+torchaudio>=2.2.0,<2.3
+pandas==2.2.2
+numpy>=1.26.4,<2
+scikit-learn>=1.5.0
+matplotlib>=3.8.0
+tqdm>=4.66.0
+
+# --- Privacy Module  ---
+opacus>=1.4.0,<1.5.0  # High-performance Differential Privacy for PyTorch
+# syft==0.9.5           # For Federated Learning & Encrypted computatio - Commented out due to NumPy 1.24 conflict
+
+# --- Fairness & Bias Module ---
+fairlearn>=0.11.0     # Microsoft's library for fairness metrics/mitigation
+aif360>=0.6.1         # IBM's comprehensive fairness toolkit
+
+# --- Robustness & Red-Teaming ---
+adversarial-robustness-toolbox>=1.18.0   # The "ART" library for attacks/defenses
+pyrit==0.3.0                             # Microsoft's Python Risk Identification Tool for LLMs
+
+# --- Experiment Tracking & MLOps ---
+mlflow>=2.14.0        # Tracking the Privacy-Utility trade-off
+python-dotenv>=1.0.1  # For managing API keys safely
+
+# --- Presentation & UI ---
+streamlit>=1.36.0     # For building the Audit Dashboard

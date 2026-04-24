@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: sentinel-ai
+Version: 0.1
+Requires-Dist: torch<2.3,>=2.2.0
+Requires-Dist: torchvision<0.18,>=0.17.0
+Requires-Dist: torchaudio<2.3,>=2.2.0
+Requires-Dist: opacus<1.5.0,>=1.4.0
+Requires-Dist: fairlearn
+Requires-Dist: mlflow
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: numpy<2,>=1.26.4
+Dynamic: requires-dist
