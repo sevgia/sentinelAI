@@ -33,7 +33,8 @@ Our audit of the UCI Adult Income dataset revealed a critical phenomenon termed 
 2.  **The Robustness Paradox:** Contrary to the theory that noise always improves robustness, at $\epsilon=1.0$ the model underfits the baseline (~75% majority class), resulting in unstable decision boundaries that are easily manipulated by FGSM attacks.
 3.  **The Sentinel "Sweet Spot":** The audit identifies **$\epsilon=10.0$** as the "Goldilocks" configuration, offering near-peak accuracy while maintaining significantly higher fairness and robustness compared to the unconstrained baseline.
 
-  Note: High-epsilon stress tests ($\epsilon=100$) were conducted to establish a baseline for 'natural bias' in the UCI Adult dataset, acknowledging the vacuous nature of privacy bounds at this scale.
+Note: High-epsilon stress tests ($\epsilon=100$) were conducted to establish a baseline for 'natural bias' in the UCI Adult dataset, acknowledging the vacuous nature of privacy bounds at this scale.
+
 ---
 
 ##  Technical Stack
