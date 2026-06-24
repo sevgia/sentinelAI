@@ -15,5 +15,7 @@ setup(
         "scikit-learn",
         "pandas",
         "numpy>=1.26.4,<2",
+        "faiss-cpu>=1.9.0",
+        "sentence-transformers>=3.0.0",
     ],
 )

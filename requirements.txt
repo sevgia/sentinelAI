@@ -24,5 +24,9 @@ pyrit==0.3.0                             # Microsoft's Python Risk Identificatio
 mlflow>=2.14.0        # Tracking the Privacy-Utility trade-off
 python-dotenv>=1.0.1  # For managing API keys safely
 
+# --- RAG & Vector Search ---
+faiss-cpu>=1.9.0           # Facebook AI Similarity Search (CPU build)
+sentence-transformers>=3.0.0  # Sentence embeddings for semantic search
+
 # --- Presentation & UI ---
 streamlit>=1.36.0     # For building the Audit Dashboard
